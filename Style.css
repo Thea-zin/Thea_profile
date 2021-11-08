@@ -1,0 +1,196 @@
+body{
+    font-family: 'Arvo', serif;
+    background-color: #DED9C4;
+    margin: 0px;
+    padding: 0px;
+    height: 1800px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold; 
+    margin-left: 50px;
+}
+
+.function ul{
+    list-style: none;
+    display:absolute ;
+    right: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+.function li{
+    display: inline;
+    padding: 15px;
+    border-bottom: black;
+    height: 3px;
+    width: 100%;
+}
+.function a{
+    color: black;
+    text-decoration:none;    
+}
+.function a:hover{
+     border-bottom: 3px solid white;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.profile .pic{
+    margin-right: 200px;
+    box-shadow: 50px 60px #F5F5F5;
+
+}
+.profile img{
+   width: 260px;  
+}
+
+.profile .intro{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.intro .big{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.short-intro{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.check-more{
+    margin-top: 30px;
+    
+}
+
+.button{
+   background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.aboutme{
+    background-color: white;     
+    padding: 40px;
+    margin-top: 155px;
+    height:300px;
+    border-radius: 50px;
+}
+.about-me{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.aboutme .image img{
+    position: relative;
+    width: 200px;
+    bottom: 63px;
+    margin-right: 80px;
+    border-radius: 50px;
+} 
+.stement{
+     margin-left: 40px;
+     padding: 20px;
+     font-size: 20px;
+    
+}
+h1{
+    margin: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.skill{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.python{
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    width: 300px;
+}
+.pythons{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.python-intro{
+    margin: 20px;
+}
+.python-pic img{
+    width:200px ;
+}
+.frontend{
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    width: 300px;  
+    text-align: center;
+  
+}
+.front-photo img{
+    width: 200px;
+    margin-top: 40px;
+}
+.front-intro{
+    margin-top: 40px;
+}
+.front{
+    font-size: 20px;
+    font-weight: bolder   
+}
+.footage{
+    background-color:#091353;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contianer1{
+    margin-left: 40px;
+    padding: 40px;
+}
+.get{
+    font-size: 30px;
+    font-weight:bold;
+    
+}
+.write1{
+    margin: 20px 0px;
+
+}
+.social img{
+    width: 40px;
+}
+.contianer2{
+    background-color: #091353;
+    text-align: center;
+    margin-right: 150px;
+}
+.thea{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
